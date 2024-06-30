@@ -2,15 +2,15 @@
   "name": "world-cup-finals",
   "version": "1.0.0",
   "description": "lists fifa worldcup finals and score scrapped from wikipedia",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ben12mwaniki",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
-    "cheerio": "^1.0.0-rc.12",
-    "pretty": "^2.0.0"
+    "cheerio": "^1.0.0-rc.12"
   }
 }
